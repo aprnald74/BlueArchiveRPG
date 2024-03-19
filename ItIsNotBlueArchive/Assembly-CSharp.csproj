@@ -58,6 +58,7 @@
      <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
+     <Compile Include="Assets\Script\CameraController.cs" />
      <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
@@ -67,14 +68,17 @@
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
      <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
      <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
+     <Compile Include="Assets\Script\MainController.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
      <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
+     <Compile Include="Assets\Script\Manager\GameDateManager.cs" />
      <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
+     <Compile Include="Assets\Script\Teacher.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
      <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
@@ -84,6 +88,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
+     <Folder Include="Assets\Resources\Img\BackGround" />
      <Folder Include="Assets\LeanTween\Examples\Scenes" />
      <None Include="Assets\LeanTween\ReadMe.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -92,11 +97,14 @@
      <Folder Include="Assets\LeanTween\Examples\Prefabs" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\LeanTween\Documentation\elements" />
+     <Folder Include="Assets\Animation" />
      <Folder Include="Assets\LeanTween\Framework" />
+     <Folder Include="Assets\Resources\Img\Logo" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\LeanTween\License.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\Animation\Clip" />
      <Folder Include="Assets\Resources" />
      <Folder Include="Assets\LeanTween\Documentation\classes" />
      <Folder Include="Assets\Assets" />
@@ -105,6 +113,7 @@
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\LeanTween\Examples\Models\Materials" />
      <Folder Include="Assets\LeanTween\Documentation" />
+     <Folder Include="Assets\Resources\Img\Cr\TeacherImg" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <Folder Include="Assets\LeanTween\Examples" />
@@ -120,6 +129,7 @@
      <Folder Include="Assets\LeanTween\Examples\Material" />
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
      <Folder Include="Assets\TextMesh Pro\Fonts" />
+     <Folder Include="Assets\Resources\Img\UI" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\Resources\Materials" />
      <Folder Include="Assets\Resources\Sound" />
@@ -134,10 +144,12 @@
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
      <Folder Include="Assets\LeanTween\Examples\Textures" />
+     <Folder Include="Assets\Animation\Controller" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <Folder Include="Assets\LeanTween\Documentation\assets\css" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <Folder Include="Assets\Resources\Img\Cr" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>

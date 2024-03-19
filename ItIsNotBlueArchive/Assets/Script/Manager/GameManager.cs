@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     
     private bool created = false;
     private int sceneIndex;
+    
     public int SceneIndex { get { return sceneIndex; } set { sceneIndex = value; } }
     public bool IsPopHide  { get { return created; } }
 
@@ -26,7 +27,7 @@ public class GameManager : MonoBehaviour
         } else {
             Destroy(this.gameObject);
         }
-
+        
         sceneIndex = 0;
     }
 
@@ -39,11 +40,6 @@ public class GameManager : MonoBehaviour
                 popUp.gameObject.SetActive(true);
                 created = true;
             }
-        }
-
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            
         }
     }
 
